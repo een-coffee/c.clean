@@ -18,7 +18,7 @@ An application with the following layers:
 │   │   ├── user_service.c
 │   ├── interfaces/                        # Adapters (Repository, Controllers)
 │   │   ├── user_repository.h
-│   ├── infrastructure/                    # Implementation (DB, UI)
+│   ├── infrastructure/                    # External services (database, APIs, frameworks)
 │   │   ├── in_memory_user_repository.h
 │   │   ├── in_memory_user_repository.c
 │   ├── main.c                             # Entry point
